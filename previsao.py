@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from math import comb
 
 # Carregar arquivo xlsx com os resultados anteriores para amostragem
-arquivo_xlsx = 'mega_sena_asloterias_ate_concurso_2669_sorteio.xlsx'
+arquivo_xlsx = 'archives/mega_sena_asloterias_ate_concurso_2669_sorteio.xlsx'
 dados = pd.read_excel(arquivo_xlsx)
 
 # Fazer limpeza dos dados - Remover colunas desnecessárias do arquivo
